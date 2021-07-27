@@ -1,0 +1,74 @@
+*{
+	margin : 0px;
+	padding : 0px;
+}
+.navbar{
+	position : relative;
+	background-color : #2DBCDF;
+	font-size : 18px;
+	font-family : 'Gentium Book Basic'; 
+	height : 70px;
+	padding : 8px;
+}
+#brand{
+	background: linear-gradient(to right,#EA4625 40%, #AC010D 100%); 
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	font-family:'Audiowide';
+	font-weight:bold;
+	font-size:26px;
+	margin-right : 50px;
+	text-transform : capitalize;
+}
+nav a:hover{
+	background-color : #ff8000;
+	border-radius : 15px;
+	/* padding : 0px; */
+}
+#logout{
+	color:white;
+	margin-left : 10px;
+	border-radius : 15px;
+}
+#content{
+	font-size : 14px;
+}
+.display-5{
+	font-family: 'Bree Serif', serif;
+}
+.col-sm-8{
+	height : 470px;
+	background-image : url("image/quiztime.jpg");
+	background-size: cover; 
+	background-repeat : no-repeat;
+}
+.col-sm-4{
+	height : 487px;
+	text-align : center;
+}
+#info{
+	/* border : 1px solid black;  */
+	height : 110px;
+}
+#info ul li{
+	float: left;
+    height: 85px;
+    padding: 5px;
+    text-align: center;
+    width: 155px;
+    margin : -5px 5px;
+    background: #D4DF3A;
+    color: black;
+    list-style-type: none;
+    font-family:'Audiowide';
+}
+#rule ul li{
+	margin-left : 18px;
+}
+#rule{
+	margin-top : -10px;
+	text-align : left;
+}
+#about{
+	margin-top : 25px;
+}
