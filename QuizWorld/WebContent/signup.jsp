@@ -9,7 +9,7 @@
 	out.print(" <script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script>");
 	out.print("<script src='bootstrap 4/js/jquery.min.js'></script> ");
 	Class.forName("com.mysql.cj.jdbc.Driver");
-	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/QuizWorld","root","");
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/QuizWorld","root","");
 	PreparedStatement ps=con.prepareStatement("Select * from userinfo where username=?;");
 	ps.setString(1,username);
 	ResultSet rs=ps.executeQuery(); 

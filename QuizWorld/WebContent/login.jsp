@@ -8,7 +8,7 @@
 	boolean status=false;
 	try{
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/QuizWorld","root","");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/QuizWorld","root","");
 		PreparedStatement ps=con.prepareStatement("Select * from userinfo where username=? AND Password=?;");  
 		ps.setString(1,username);  
 		ps.setString(2,password); 
